@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { StadardMaterials } from "../Babylons/StandardMaterials.js";
+import { PBR } from "../Babylons/PBR.js";
 
 export default {
   name: "HelloWorld",
@@ -14,7 +14,7 @@ export default {
       canvas = document.createElement("canvas");
       canvas.id = "babylon-scene";
     }
-    new StadardMaterials(canvas);
+    new PBR(canvas);
   },
 };
 </script>
