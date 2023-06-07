@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { PBR } from "../Babylons/PBR.js";
+import { SceneXRDemo } from "../Babylons/SceneXRDemo.js";
 
 export default {
   name: "HelloWorld",
@@ -14,7 +14,7 @@ export default {
       canvas = document.createElement("canvas");
       canvas.id = "babylon-scene";
     }
-    new PBR(canvas);
+    new SceneXRDemo(canvas);
   },
 };
 </script>
